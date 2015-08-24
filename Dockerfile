@@ -1,4 +1,4 @@
-FROM rdebourbon/base:latest
+FROM rdebourbon/docker-base:latest
 MAINTAINER rdebourbon@xpandata.net
 
 # add our user and group first to make sure their IDs get assigned regardless of what other dependencies may get added.
