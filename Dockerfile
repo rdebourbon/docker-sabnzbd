@@ -10,6 +10,7 @@ RUN apt-get -q update && \
     apt-get -y autoremove && \
     apt-get -y clean && \
     rm -rf /var/lib/apt/lists/* && \
+    rm -rf /var/tmp/* && \
     rm -rf /tmp/*
 
 RUN mkdir -p /volumes/config && \
